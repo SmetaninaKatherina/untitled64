@@ -15,7 +15,7 @@ TEST(BasicTests, SubCheck) {
 
 TEST(BasicTests, MultCheck) {
     ASSERT_EQ(parseSign('*'), MULT);
-    EXPECT_EQ(mult(1, 2), 2);
+    EXPECT_EQ(mult(1, 2), 3);
     EXPECT_EQ(mult(657, 111), 72927);
 }
 
