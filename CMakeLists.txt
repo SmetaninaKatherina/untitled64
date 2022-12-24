@@ -5,5 +5,5 @@ set(CMAKE_CXX_STANDARD 14)
 add_subdirectory(lib/googletest-main)
 
 include_directories(lib/googletest-main/googletest/include)
-add_executable(untitled64 main.cpp)
+add_executable(untitled64 testsFile.cpp)
 target_link_libraries(untitled64 gtest gtest_main)
